@@ -25,7 +25,7 @@ public class BrowserDriverFactory {
 
 
 	public WebDriver createDriver() {
-		log.info("Create driver: " + browser);
+		log.info("Create Local driver: " + browser);
 
 		switch (browser) {
 		case "chrome":
